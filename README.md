@@ -194,6 +194,7 @@ git fetch origin
 
 # 拉取并合并远程更改到当前分支
 git pull origin main  # 如果是 main 分支
-# 或
-git pull origin master  # 如果是 master 分支
+
+# 重置本地分支（强制拉取到本地）
+git reset --hard origin/main
 ```
